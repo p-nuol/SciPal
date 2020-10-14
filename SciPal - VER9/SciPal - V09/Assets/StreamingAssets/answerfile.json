@@ -1,0 +1,37 @@
+{
+    "answers": 
+    [
+        {"id": 1,
+            "image": "SciPal - V09/Assets/ObjectLand/material_ceramics.png",
+            "info": "เซรามิก"
+        },
+        {"id": 2,
+            "image": "SciPal - V09/Assets/ObjectLand/material_fabric.png",
+            "info": "ผ้า"
+        },
+        {"id": 3,
+            "image": "SciPal - V09/Assets/ObjectLand/material_glass.png",
+            "info": "กระจกแก้ว"
+        },
+        {"id": 4,
+            "image": "SciPal - V09/Assets/ObjectLand/material_metal.png",
+            "info": "โลหะ"
+        },
+        {"id": 5,
+            "image": "SciPal - V09/Assets/ObjectLand/material_paper.png",
+            "info": "กระดาษ"
+        },
+        {"id": 6,
+            "image": "SciPal - V09/Assets/ObjectLand/material_plastic.png",
+            "info": "พลาสติก"
+        },
+        {"id": 7,
+            "image": "SciPal - V09/Assets/ObjectLand/material_rubber.png",
+            "info": "ยาง" //wait for edited sprite
+        },
+        {"id": 8,
+            "image": "SciPal - V09/Assets/ObjectLand/material_wood.png",
+            "info": "ไม้"
+        }
+    ]
+}

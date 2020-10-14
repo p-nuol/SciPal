@@ -1,0 +1,1148 @@
+{
+    "questions" :
+    [
+        {
+            "id" : 1,
+                "info" : "กระเป๋าเป้ทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/backpack.png",
+                "correctAns" : 2,
+                "answers" : 
+                [
+                    {"id": 1,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_ceramics.png",
+                        "info": "เซรามิก"
+                    },
+                    {"id": 2,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_fabric.png",
+                        "info": "ผ้า"
+                    },
+                    {"id": 3,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_glass.png",
+                        "info": "กระจกแก้ว"
+                    }
+                ],
+                "correctKnowledge" : 
+                {                        
+                    "image": "SciPal - V09/Assets/ObjectLand/material_fabric.png",
+                    "title": "ผ้า",
+                    "description": "//insert description here",
+                    "audio": "//insert audio path here"
+                }
+        },
+        {
+            "id" : 2,
+                "info" : "กระเป๋าผ้าทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/totebag.png",
+                "correctAns" : 2,
+                "answers" :
+                [
+                    {"id": 2,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_fabric.png",
+                        "info": "ผ้า"
+                    },
+                    {"id": 4,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_metal.png",
+                        "info": "โลหะ"
+                    },
+                    {"id": 5,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_paper.png",
+                        "info": "กระดาษ"
+                    }
+                ]
+        },
+        {
+            "id" : 3,
+                "info" : "เบาะรองนั่งทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/cushion.png",
+                "correctAns" : 2,
+                "answers" :
+                [
+                    {"id": 2,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_fabric.png",
+                        "info": "ผ้า"
+                    },
+                    {"id": 6,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_plastic.png",
+                        "info": "พลาสติก"
+                    },
+                    {"id": 8,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_wood.png",
+                        "info": "ไม้"
+                    }
+                ]
+        },
+        {
+            "id" : 5,
+                "info" : "ผ้าเช็ดหน้าทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/handkerchief.png",
+                "correctAns" : 2,
+                "answers" :
+                [
+                    {"id": 2,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_fabric.png",
+                        "info": "ผ้า"
+                    },
+                    {"id": 3,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_glass.png",
+                        "info": "กระจกแก้ว"
+                    },
+                    {"id": 7,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_rubber.png",
+                        "info": "ยางพารา" //wait for edited sprite
+                    }
+                ]
+        },
+        {
+            "id" : 6,
+                "info" : "หมวกทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/hat.png",
+                "correctAns" : 2,
+                "answers" :
+                [
+                    {"id": 2,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_fabric.png",
+                        "info": "ผ้า"
+                    },
+                    {"id": 4,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_metal.png",
+                        "info": "โลหะ"
+                    },
+                    {"id": 8,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_wood.png",
+                        "info": "ไม้"
+                    }
+                ]
+        },
+        {
+            "id" : 7,
+                "info" : "หน้ากากอนามัยทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/mask.png",
+                "correctAns" : 2,
+                "answers" :
+                [
+                    {"id": 2,
+                        "image": "Assets/ObjectLand/material_fabric.png",
+                        "info": "ผ้า"
+                    },
+                    {"id": 1,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_ceramics.png",
+                        "info": "เซรามิก"
+                    },
+                    {"id": 8,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_wood.png",
+                        "info": "ไม้"
+                    }
+                ]
+        },
+        {
+            "id" : 8,
+                "info" : "ผ้าพันคอทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/scarf.png",
+                "correctAns" : 2,
+                "answers" :
+                [
+                    {"id": 2,
+                        "image": "Assets/ObjectLand/material_fabric.png",
+                        "info": "ผ้า"
+                    },
+                    {"id": 3,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_glass.png",
+                        "info": "กระจกแก้ว"
+                    },
+                    {"id": 7,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_rubber.png",
+                        "info": "ยาง" //wait for edited sprite
+                    }
+                ]
+        },
+        {
+            "id" : 9,
+                "info" : "รองเท้าผ้าใบทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/sneaker.png",
+                "correctAns" : 2,
+                "answers" :
+                [
+                    {"id": 2,
+                        "image": "Assets/ObjectLand/material_fabric.png",
+                        "info": "ผ้า"
+                    },
+                    {"id": 4,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_metal.png",
+                        "info": "โลหะ"
+                    },
+                    {"id": 6,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_plastic.png",
+                        "info": "พลาสติก"
+                    }
+                ]
+        },
+        {
+            "id" : 11,
+                "info" : "ตุ๊กตาหมีทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/teddybear.png",
+                "correctAns" : 2,
+                "answers" :
+                [
+                    {"id": 2,
+                        "image": "Assets/ObjectLand/material_fabric.png",
+                        "info": "ผ้า"
+                    },
+                    {"id": 6,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_plastic.png",
+                        "info": "พลาสติก"
+                    },
+                    {"id": 3,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_glass.png",
+                        "info": "กระจกแก้ว"
+                    }
+                ]
+        },
+        {
+            "id" : 12,
+                "info" : "เสื้อยืดทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/tshirt.png",
+                "correctAns" : 2,
+                "answers" :
+                [
+                    {"id": 2,
+                        "image": "Assets/ObjectLand/material_fabric.png",
+                        "info": "ผ้า"
+                    },
+                    {"id": 7,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_rubber.png",
+                        "info": "ยาง" //wait for edited sprite
+                    },
+                    {"id": 1,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_ceramics.png",
+                        "info": "เซรามิก"
+                    }
+                ]
+        },
+
+
+
+
+
+        
+        {
+            "id" : 13,
+                "info" : "ชามกระเบื้องทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/bowl.png",
+                "correctAns" : 1,
+                "answers" :
+                [
+                    {"id": 1,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_ceramics.png",
+                        "info": "เซรามิก"
+                    },
+                    {"id": 2,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_fabric.png",
+                        "info": "ผ้า"
+                    },
+                    {"id": 6,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_plastic.png",
+                        "info": "พลาสติก"
+                    }
+                ]
+        },
+        {
+            "id" : 14,
+                "info" : "จานกระเบื้องทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/dish.png",
+                "correctAns" : 1,
+                "answers" :
+                [
+                    {"id": 1,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_ceramics.png",
+                        "info": "เซรามิก"
+                    },
+                    {"id": 7,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_rubber.png",
+                        "info": "ยาง" //wait for edited sprite
+                    },
+                    {"id": 3,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_glass.png",
+                        "info": "กระจกแก้ว"
+                    }
+                ]
+        },
+        {
+            "id" : 15,
+                "info" : "กาน้ำชาทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/kettle.png",
+                "correctAns" : 1,
+                "answers" :
+                [
+                    {"id": 1,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_ceramics.png",
+                        "info": "เซรามิก"
+                    },
+                    {"id": 4,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_metal.png",
+                        "info": "โลหะ"
+                    },
+                    {"id": 8,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_wood.png",
+                        "info": "ไม้"
+                    }
+                ]
+        },
+        {
+            "id" : 16,
+                "info" : "แจกันดอกไม้ทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/vase.png",
+                "correctAns" : 1,
+                "answers" :
+                [
+                    {"id": 1,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_ceramics.png",
+                        "info": "เซรามิก"
+                    },
+                    {"id": 2,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_fabric.png",
+                        "info": "ผ้า"
+                    },
+                    {"id": 5,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_paper.png",
+                        "info": "กระดาษ"
+                    }
+                ]
+        },
+
+
+
+
+
+        
+        {
+            "id" : 17,
+                "info" : "หลอดไฟทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/lightbulb.png",
+                "correctAns" : 3,
+                "answers" :
+                [
+                    {"id": 3,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_glass.png",
+                        "info": "กระจกแก้ว"
+                    },
+                    {"id": 8,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_wood.png",
+                        "info": "ไม้"
+                    },
+                    {"id": 2,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_fabric.png",
+                        "info": "ผ้า"
+                    }
+                ]
+        },
+        {
+            "id" : 19,
+                "info" : "กระจกเงาทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/mirror.png",
+                "correctAns" : 3,
+                "answers" :
+                [
+                    {"id": 3,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_glass.png",
+                        "info": "กระจกแก้ว"
+                    },
+                    {"id": 1,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_ceramics.png",
+                        "info": "เซรามิก"
+                    },
+                    {"id": 5,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_paper.png",
+                        "info": "กระดาษ"
+                    }
+                ]
+        },
+        {
+            "id" : 20,
+                "info" : "แก้วน้ำทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/waterglass.png",
+                "correctAns" : 3,
+                "answers" :
+                [
+                    {"id": 3,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_glass.png",
+                        "info": "กระจกแก้ว"
+                    },
+                    {"id": 7,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_rubber.png",
+                        "info": "ยาง" //wait for edited sprite
+                    },
+                    {"id": 2,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_fabric.png",
+                        "info": "ผ้า"
+                    }
+                ]
+        },
+        {
+            "id" : 21,
+                "info" : "หน้าต่างทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/windows.png",
+                "correctAns" : 3,
+                "answers" :
+                [
+                    {"id": 3,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_glass.png",
+                        "info": "กระจกแก้ว"
+                    },
+                    {"id": 1,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_ceramics.png",
+                        "info": "เซรามิก"
+                    },
+                    {"id": 4,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_metal.png",
+                        "info": "โลหะ"
+                    }
+                ]
+        },
+
+
+
+
+
+
+        {
+            "id" : 22,
+                "info" : "กระป๋องน้ำอัดลมทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/can.png",
+                "correctAns" : 4,
+                "answers" :
+                [
+                    {"id": 4,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_metal.png",
+                        "info": "โลหะ"
+                    },
+                    {"id": 7,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_rubber.png",
+                        "info": "ยาง" //wait for edited sprite
+                    },
+                    {"id": 2,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_fabric.png",
+                        "info": "ผ้า"
+                    }
+                ]
+        },
+        {
+            "id" : 23,
+                "info" : "เหรียญทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/coin.png",
+                "correctAns" : 4,
+                "answers" :
+                [
+                    {"id": 4,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_metal.png",
+                        "info": "โลหะ"
+                    },
+                    {"id": 3,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_glass.png",
+                        "info": "กระจกแก้ว"
+                    },
+                    {"id": 5,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_paper.png",
+                        "info": "กระดาษ"
+                    }
+                ]
+        },
+        {
+            "id" : 24,
+                "info" : "ช้อนส้อมทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/cutlery.png",
+                "correctAns" : 4,
+                "answers" :
+                [
+                    {"id": 4,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_metal.png",
+                        "info": "โลหะ"
+                    },
+                    {"id": 2,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_fabric.png",
+                        "info": "ผ้า"
+                    },
+                    {"id": 7,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_rubber.png",
+                        "info": "ยาง" //wait for edited sprite
+                    }
+                ]
+        },
+        {
+            "id" : 27,
+                "info" : "หม้อทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/pot.png",
+                "correctAns" : 4,
+                "answers" :
+                [
+                    {"id": 4,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_metal.png",
+                        "info": "โลหะ"
+                    },
+                    {"id": 5,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_paper.png",
+                        "info": "กระดาษ"
+                    },
+                    {"id": 6,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_plastic.png",
+                        "info": "พลาสติก"
+                    }
+                ]
+        },
+
+
+
+
+
+
+        {
+            "id" : 28,
+                "info" : "หนังสือทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/book.png",
+                "correctAns" : 5,
+                "answers" :
+                [
+                    {"id": 5,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_paper.png",
+                        "info": "กระดาษ"
+                    },
+                    {"id": 6,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_plastic.png",
+                        "info": "พลาสติก"
+                    },
+                    {"id": 4,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_metal.png",
+                        "info": "โลหะ"
+                    }
+                ]
+        },
+        {
+            "id" : 30,
+                "info" : "จดหมายทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/letter.png",
+                "correctAns" : 5,
+                "answers" :
+                [
+                    {"id": 5,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_paper.png",
+                        "info": "กระดาษ"
+                    },
+                    {"id": 8,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_wood.png",
+                        "info": "ไม้"
+                    },
+                    {"id": 3,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_glass.png",
+                        "info": "กระจกแก้ว"
+                    }
+                ]
+        },
+        {
+            "id" : 31,
+                "info" : "กระดาษทิชชู่ทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/napkinpaper.png",
+                "correctAns" : 5,
+                "answers" :
+                [
+                    {"id": 5,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_paper.png",
+                        "info": "กระดาษ"
+                    },
+                    {"id": 2,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_fabric.png",
+                        "info": "ผ้า"
+                    },
+                    {"id": 7,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_rubber.png",
+                        "info": "ยาง" //wait for edited sprite
+                    }
+                ]
+        },
+        {
+            "id" : 32,
+                "info" : "หนังสือพิมพ์ทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/newspaper.png",
+                "correctAns" : 5,
+                "answers" :
+                [
+                    {"id": 5,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_paper.png",
+                        "info": "กระดาษ"
+                    },
+                    {"id": 7,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_rubber.png",
+                        "info": "ยาง" //wait for edited sprite
+                    },
+                    {"id": 6,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_plastic.png",
+                        "info": "พลาสติก"
+                    }
+                ]
+        },
+        {
+            "id" : 33,
+                "info" : "ถุงกระดาษทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/paperbag.png",
+                "correctAns" : 5,
+                "answers" :
+                [
+                    {"id": 5,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_paper.png",
+                        "info": "กระดาษ"
+                    },
+                    {"id": 3,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_glass.png",
+                        "info": "กระจกแก้ว"
+                    },
+                    {"id": 1,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_ceramics.png",
+                        "info": "เซรามิก"
+                    }
+                ]
+        },
+
+
+
+
+
+
+        {
+            "id" : 34,
+                "info" : "ลูกโป่งทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/balloon.png",
+                "correctAns" : 6,
+                "answers" :
+                [
+                    {"id": 6,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_plastic.png",
+                        "info": "พลาสติก"
+                    },
+                    {"id": 8,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_wood.png",
+                        "info": "ไม้"
+                    },
+                    {"id": 1,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_ceramics.png",
+                        "info": "เซรามิก"
+                    }
+                ]
+        },
+        {
+            "id" : 35,
+                "info" : "ตะกร้าทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/basket.png",
+                "correctAns" : 6,
+                "answers" :
+                [
+                    {"id": 6,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_plastic.png",
+                        "info": "พลาสติก"
+                    },
+                    {"id": 7,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_rubber.png",
+                        "info": "ยาง" //wait for edited sprite
+                    },
+                    {"id": 2,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_fabric.png",
+                        "info": "ผ้า"
+                    }
+                ]
+        },
+        {
+            "id" : 36,
+                "info" : "ถังทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/bucket.png",
+                "correctAns" : 6,
+                "answers" :
+                [
+                    {"id": 6,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_plastic.png",
+                        "info": "พลาสติก"
+                    },
+                    {"id": 5,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_paper.png",
+                        "info": "กระดาษ"
+                    },
+                    {"id": 3,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_glass.png",
+                        "info": "กระจกแก้ว"
+                    }
+                ]
+        },
+        {
+            "id" : 37,
+                "info" : "กระดุมทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/button.png",
+                "correctAns" : 6,
+                "answers" :
+                [
+                    {"id": 6,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_plastic.png",
+                        "info": "พลาสติก"
+                    },
+                    {"id": 4,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_metal.png",
+                        "info": "โลหะ"
+                    },
+                    {"id": 7,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_rubber.png",
+                        "info": "ยาง" //wait for edited sprite
+                    }
+                ]
+        },
+        {
+            "id" : 40,
+                "info" : "ขวดน้ำทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/plasticbottle.png",
+                "correctAns" : 6,
+                "answers" :
+                [
+                    {"id": 6,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_plastic.png",
+                        "info": "พลาสติก"
+                    },
+                    {"id": 1,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_ceramics.png",
+                        "info": "เซรามิก"
+                    },
+                    {"id": 8,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_wood.png",
+                        "info": "ไม้"
+                    }
+                ]
+        },
+        {
+            "id" : 41,
+                "info" : "ไม้บรรทัดทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/ruler.png",
+                "correctAns" : 6,
+                "answers" :
+                [
+                    {"id": 6,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_plastic.png",
+                        "info": "พลาสติก"
+                    },
+                    {"id": 4,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_metal.png",
+                        "info": "โลหะ"
+                    },
+                    {"id": 8,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_wood.png",
+                        "info": "ไม้"
+                    }
+                ]
+        },
+        {
+            "id" : 42,
+                "info" : "หลอดดูดน้ำทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/straw.png",
+                "correctAns" : 6,
+                "answers" :
+                [
+                    {"id": 6,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_plastic.png",
+                        "info": "พลาสติก"
+                    },
+                    {"id": 2,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_fabric.png",
+                        "info": "ผ้า"
+                    },
+                    {"id": 7,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_rubber.png",
+                        "info": "ยาง" //wait for edited sprite
+                    }
+                ]
+        },
+
+
+
+
+
+
+
+        {
+            "id" : 43,
+                "info" : "ลูกบาสเกตบอลทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/basketball.png",
+                "correctAns" : 7,
+                "answers" :
+                [
+                    {"id": 7,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_rubber.png",
+                        "info": "ยาง" //wait for edited sprite
+                    },
+                    {"id": 8,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_wood.png",
+                        "info": "ไม้"
+                    },
+                    {"id": 1,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_ceramics.png",
+                        "info": "เซรามิก"
+                    }
+                ]
+        },
+        {
+            "id" : 44,
+                "info" : "ยางลบทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/eraser.png",
+                "correctAns" : 7,
+                "answers" :
+                [
+                    {"id": 7,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_rubber.png",
+                        "info": "ยาง" //wait for edited sprite
+                    },
+                    {"id": 6,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_plastic.png",
+                        "info": "พลาสติก"
+                    },
+                    {"id": 2,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_fabric.png",
+                        "info": "ผ้า"
+                    }
+                ]
+        },
+        {
+            "id" : 45,
+                "info" : "ห่วงยางชูชีพทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/lifesaver.png",
+                "correctAns" : 7,
+                "answers" :
+                [
+                    {"id": 7,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_rubber.png",
+                        "info": "ยาง" //wait for edited sprite
+                    },
+                    {"id": 5,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_paper.png",
+                        "info": "กระดาษ"
+                    },
+                    {"id": 3,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_glass.png",
+                        "info": "กระจกแก้ว"
+                    }
+                ]
+        },
+        {
+            "id" : 46,
+                "info" : "สายยางทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/rubbertube.png",
+                "correctAns" : 7,
+                "answers" :
+                [
+                    {"id": 7,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_rubber.png",
+                        "info": "ยาง" //wait for edited sprite
+                    },
+                    {"id": 4,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_metal.png",
+                        "info": "โลหะ"
+                    },
+                    {"id": 5,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_paper.png",
+                        "info": "กระดาษ"
+                    }
+                ]
+        },
+        {
+            "id" : 47,
+                "info" : "รองเท้าแตะทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/slippers.png",
+                "correctAns" : 7,
+                "answers" :
+                [
+                    {"id": 7,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_rubber.png",
+                        "info": "ยาง" //wait for edited sprite
+                    },
+                    {"id": 3,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_glass.png",
+                        "info": "กระจกแก้ว"
+                    },
+                    {"id": 6,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_plastic.png",
+                        "info": "พลาสติก"
+                    }
+                ]
+        },
+
+
+
+
+
+
+
+        {
+            "id" : 48,
+                "info" : "กระดานทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/blackboard.png",
+                "correctAns" : 8,
+                "answers" :
+                [
+                    {"id": 8,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_wood.png",
+                        "info": "ไม้"
+                    },
+                    {"id": 1,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_ceramics.png",
+                        "info": "เซรามิก"
+                    },
+                    {"id": 7,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_rubber.png",
+                        "info": "ยาง" //wait for edited sprite
+                    }
+                ]
+        },
+        {
+            "id" : 49,
+                "info" : "เก้าอี้ทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/chair.png",
+                "correctAns" : 8,
+                "answers" :
+                [
+                    {"id": 8,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_wood.png",
+                        "info": "ไม้"
+                    },
+                    {"id": 2,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_fabric.png",
+                        "info": "ผ้า"
+                    },
+                    {"id": 6,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_plastic.png",
+                        "info": "พลาสติก"
+                    }
+                ]
+        },
+        {
+            "id" : 50,
+                "info" : "สีไม้ทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/colorpencil.png",
+                "correctAns" : 8,
+                "answers" :
+                [
+                    {"id": 8,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_wood.png",
+                        "info": "ไม้"
+                    },
+                    {"id": 3,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_glass.png",
+                        "info": "กระจกแก้ว"
+                    },
+                    {"id": 5,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_paper.png",
+                        "info": "กระดาษ"
+                    }
+                ]
+        },
+        {
+            "id" : 51,
+                "info" : "เขียงทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/cuttingboard.png",
+                "correctAns" : 8,
+                "answers" :
+                [
+                    {"id": 8,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_wood.png",
+                        "info": "ไม้"
+                    },
+                    {"id": 4,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_metal.png",
+                        "info": "โลหะ"
+                    },
+                    {"id": 3,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_glass.png",
+                        "info": "กระจกแก้ว"
+                    }
+                ]
+        },
+        {
+            "id" : 52,
+                "info" : "ประตูทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/door.png",
+                "correctAns" : 8,
+                "answers" :
+                [
+                    {"id": 8,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_wood.png",
+                        "info": "ไม้"
+                    },
+                    {"id": 5,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_paper.png",
+                        "info": "กระดาษ"
+                    },
+                    {"id": 4,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_metal.png",
+                        "info": "โลหะ"
+                    }
+                ]
+        },
+        {
+            "id" : 53,
+                "info" : "บันไดทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/ladder.png",
+                "correctAns" : 8,
+                "answers" :
+                [
+                    {"id": 8,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_wood.png",
+                        "info": "ไม้"
+                    },
+                    {"id": 6,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_plastic.png",
+                        "info": "พลาสติก"
+                    },
+                    {"id": 2,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_fabric.png",
+                        "info": "ผ้า"
+                    }
+                ]
+        },
+        {
+            "id" : 54,
+                "info" : "ดินสอทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/pencil.png",
+                "correctAns" : 8,
+                "answers" :
+                [
+                    {"id": 8,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_wood.png",
+                        "info": "ไม้"
+                    },
+                    {"id": 7,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_rubber.png",
+                        "info": "ยาง" //wait for edited sprite
+                    },
+                    {"id": 1,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_ceramics.png",
+                        "info": "เซรามิก"
+                    }
+                ]
+        },
+        {
+            "id" : 55,
+                "info" : "ชั้นวางหนังสือทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/shelf.png",
+                "correctAns" : 8,
+                "answers" :
+                [
+                    {"id": 8,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_wood.png",
+                        "info": "ไม้"
+                    },
+                    {"id": 1,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_ceramics.png",
+                        "info": "เซรามิก"
+                    },
+                    {"id": 5,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_paper.png",
+                        "info": "กระดาษ"
+                    }
+                ]
+        },
+        {
+            "id" : 56,
+                "info" : "ไม้เสียบลูกชิ้นทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/skewer.png",
+                "correctAns" : 8,
+                "answers" :
+                [
+                    {"id": 8,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_wood.png",
+                        "info": "ไม้"
+                    },
+                    {"id": 2,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_fabric.png",
+                        "info": "ผ้า"
+                    },
+                    {"id": 6,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_plastic.png",
+                        "info": "พลาสติก"
+                    }
+                ]
+        },
+        {
+            "id" : 57,
+                "info" : "โต๊ะทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/table.png",
+                "correctAns" : 8,
+                "answers" :
+                [
+                    {"id": 8,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_wood.png",
+                        "info": "ไม้"
+                    },
+                    {"id": 3,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_glass.png",
+                        "info": "กระจกแก้ว"
+                    },
+                    {"id": 7,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_rubber.png",
+                        "info": "ยาง" //wait for edited sprite
+                    }
+                ]
+        },
+        {
+            "id" : 58,
+                "info" : "ตัวต่อของเล่นทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/toys.png",
+                "correctAns" : 8,
+                "answers" :
+                [
+                    {"id": 8,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_wood.png",
+                        "info": "ไม้"
+                    },
+                    {"id": 4,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_metal.png",
+                        "info": "โลหะ"
+                    },
+                    {"id": 1,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_ceramics.png",
+                        "info": "เซรามิก"
+                    }
+                ]
+        },
+        {
+            "id" : 59,
+                "info" : "กล่องไม้ทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/woodbox.png",
+                "correctAns" : 8,
+                "answers" :
+                [
+                    {"id": 8,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_wood.png",
+                        "info": "ไม้"
+                    },
+                    {"id": 5,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_paper.png",
+                        "info": "กระดาษ"
+                    },
+                    {"id": 2,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_fabric.png",
+                        "info": "ผ้า"
+                    }
+                ]
+        },
+        {
+            "id" : 60,
+                "info" : "ม้าไม้ทำมาจากวัสดุอะไรกันนะ?",
+                "image" : "Assets/ObjectLand/Questions/woodenhorse.png",
+                "correctAns" : 8,
+                "answers" :
+                [
+                    {"id": 8,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_wood.png",
+                        "info": "ไม้"
+                    },
+                    {"id": 6,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_plastic.png",
+                        "info": "พลาสติก"
+                    },
+                    {"id": 3,
+                        "image": "SciPal - V09/Assets/ObjectLand/material_glass.png",
+                        "info": "กระจกแก้ว"
+                    }
+                ]
+        }
+    ]
+}

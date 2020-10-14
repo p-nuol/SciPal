@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: d5850bf9ba85bc14aa12e20dc74e5f0c
+  - enabled: 1
+    path: Assets/Scenes/CreditInfo.unity
+    guid: 11a1681ba823e7a49952691e97b3519a
+  - enabled: 0
+    path: 
+    guid: b83b4e1e173d63c44bd027a6a3eb368d
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Map.unity
+    guid: 9f968a79d0a15154b9909845973b8c1c
+  - enabled: 0
+    path: 
+    guid: be5497955cde08d4bb9aa6a94075ea4e
+  - enabled: 0
+    path: 
+    guid: efa6a29d729940b45ac0889f4ad7f6ad
+  - enabled: 1
+    path: Assets/Scenes/ObjectLand.unity
+    guid: 77f3382386ddbbe4193734c81946c3b3
+  - enabled: 1
+    path: Assets/Scenes/PlantLand.unity
+    guid: 46be854a6b998ce40bccc9e7c3da3132
+  - enabled: 1
+    path: Assets/Scenes/HumanLand.unity
+    guid: 497ed457c5a977146867fd703ce75417
+  - enabled: 1
+    path: Assets/Scenes/AnimalLand.unity
+    guid: 0c7c6cefbd5619245acc8bdd4556dcee
+  m_configObjects: {}
