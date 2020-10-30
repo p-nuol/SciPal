@@ -1,0 +1,449 @@
+{
+    "allRoundData":
+    [
+        {
+            "name" : "AmimalLand",
+            "scoreOfCorrectAns" : 1,
+            "questions" :
+            [
+                {
+                    "id" : 1,
+                        "info" : "ส่วนไหนของน้องผึ้งที่หายไปกันนะ?",
+                        "image" : "Assets/AnimalLand/Questions/bee-question1.png",
+                        "answers" : 
+                        [
+                            {"id": 1,
+                                "image": "Assets/AnimalLand/Questions/bee-answer1.png",
+                                "info": "ปีก",
+                                "isCorrect": true
+                            },
+                            {"id": 2,
+                                "image": "Assets/AnimalLand/Questions/deer-answer2.png",
+                                "info": "หู",
+                                "isCorrect": false
+                            },
+                            {"id": 3,
+                                "image": "Assets/AnimalLand/Questions/crab-answer.png",
+                                "info": "ก้าม",
+                                "isCorrect": false
+                            }
+                        ]
+                },
+                {
+                    "id" : 2,
+                        "info" : "ส่วนไหนของน้องผึ้งที่หายไปกันนะ?",
+                        "image" : "Assets/AnimalLand/Questions/bee-question2.png",
+                        "answers" : 
+                        [
+                            {"id": 1,
+                                "image": "Assets/AnimalLand/Questions/bee-answer2.png",
+                                "info": "ปีก",
+                                "isCorrect": true
+                            },
+                            {"id": 2,
+                                "image": "Assets/AnimalLand/Questions/octopus-answer.png",
+                                "info": "หู",
+                                "isCorrect": false
+                            },
+                            {"id": 3,
+                                "image": "Assets/AnimalLand/Questions/frog-answer.png",
+                                "info": "ก้าม",
+                                "isCorrect": false
+                            }
+                        ]
+                },
+                {
+                    "id" : 3,
+                        "info" : "ส่วนไหนของน้องนกที่หายไปกันนะ?",
+                        "image" : "Assets/AnimalLand/Questions/bird-question.png",
+                        "answers" : 
+                        [
+                            {"id": 1,
+                                "image": "Assets/AnimalLand/Questions/bird-answer.png",
+                                "info": "ปีก",
+                                "isCorrect": true
+                            },
+                            {"id": 2,
+                                "image": "Assets/AnimalLand/Questions/elephant-answer2.png",
+                                "info": "งวง",
+                                "isCorrect": false
+                            },
+                            {"id": 3,
+                                "image": "Assets/AnimalLand/Questions/goldfish-answer2.png",
+                                "info": "ครีบ",
+                                "isCorrect": false
+                            }
+                        ]
+                },
+                {
+                    "id" : 4,
+                        "info" : "ส่วนไหนของน้องแมวที่หายไปกันนะ?",
+                        "image" : "Assets/AnimalLand/Questions/cat1-question.png",
+                        "answers" : 
+                        [
+                            {"id": 1,
+                                "image": "Assets/AnimalLand/Questions/cat1-answer.png",
+                                "info": "หู",
+                                "isCorrect": true
+                            },
+                            {"id": 2,
+                                "image": "Assets/AnimalLand/Questions/penguin-answer.png",
+                                "info": "ครีบ",
+                                "isCorrect": false
+                            },
+                            {"id": 3,
+                                "image": "Assets/AnimalLand/Questions/wolf-answer1.png",
+                                "info": "หาง",
+                                "isCorrect": false
+                            }
+                        ]
+                },
+                {
+                    "id" : 5,
+                        "info" : "ส่วนไหนของน้องปูที่หายไปกันนะ?",
+                        "image" : "Assets/AnimalLand/Questions/cat2-question.png",
+                        "answers" : 
+                        [
+                            {"id": 1,
+                                "image": "Assets/AnimalLand/Questions/crab-answer.png",
+                                "info": "ก้าม",
+                                "isCorrect": true
+                            },
+                            {"id": 2,
+                                "image": "Assets/AnimalLand/Questions/bird-answer.png",
+                                "info": "ปีก",
+                                "isCorrect": false
+                            },
+                            {"id": 3,
+                                "image": "Assets/AnimalLand/Questions/cat2-answer.png",
+                                "info": "หาง",
+                                "isCorrect": false
+                            }
+                        ]
+                },
+                {
+                    "id" : 6,
+                        "info" : "ส่วนไหนของน้องกวางที่หายไปกันนะ?",
+                        "image" : "Assets/AnimalLand/Questions/deer-question1.png",
+                        "answers" : 
+                        [
+                            {"id": 1,
+                                "image": "Assets/AnimalLand/Questions/deer-answer1.png",
+                                "info": "เขา",
+                                "isCorrect": true
+                            },
+                            {"id": 2, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/bird-answer.png",
+                                "info": "ปีก",
+                                "isCorrect": false
+                            },
+                            {"id": 3, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/cat2-answer.png",
+                                "info": "หาง",
+                                "isCorrect": false
+                            }
+                        ]
+                },
+                {
+                    "id" : 7,
+                        "info" : "ส่วนไหนของน้องกวางที่หายไปกันนะ?",
+                        "image" : "Assets/AnimalLand/Questions/deer-question2.png",
+                        "answers" : 
+                        [
+                            {"id": 1,
+                                "image": "Assets/AnimalLand/Questions/deer-answer2.png",
+                                "info": "หู",
+                                "isCorrect": true
+                            },
+                            {"id": 2, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/bird-answer.png",
+                                "info": "ปีก",
+                                "isCorrect": false
+                            },
+                            {"id": 3, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/cat2-answer.png",
+                                "info": "หาง",
+                                "isCorrect": false
+                            }
+                        ] 
+                },
+                {
+                    "id" : 8,
+                        "info" : "ส่วนไหนของน้องช้างที่หายไปกันนะ?",
+                        "image" : "Assets/AnimalLand/Questions/elephant-question1.png",
+                        "answers" : 
+                        [
+                            {"id": 1,
+                                "image": "Assets/AnimalLand/Questions/elephant-answer1.png",
+                                "info": "หู",
+                                "isCorrect": true
+                            },
+                            {"id": 2, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/bird-answer.png",
+                                "info": "ปีก",
+                                "isCorrect": false
+                            },
+                            {"id": 3, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/cat2-answer.png",
+                                "info": "หาง",
+                                "isCorrect": false
+                            }
+                        ]
+                },
+                {
+                    "id" : 9,
+                        "info" : "ส่วนไหนของน้องช้างที่หายไปกันนะ?",
+                        "image" : "Assets/AnimalLand/Questions/elephant-question2.png",
+                        "answers" : 
+                        [
+                            {"id": 1,
+                                "image": "Assets/AnimalLand/Questions/elephant-answer2.png",
+                                "info": "งวง",
+                                "isCorrect": true
+                            },
+                            {"id": 2, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/bird-answer.png",
+                                "info": "ปีก",
+                                "isCorrect": false
+                            },
+                            {"id": 3, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/cat2-answer.png",
+                                "info": "หาง",
+                                "isCorrect": false
+                            }
+                        ]
+                },
+                {
+                    "id" : 10,
+                        "info" : "ส่วนไหนของน้องกบที่หายไปกันนะ?",
+                        "image" : "Assets/AnimalLand/Questions/frog-question.png",
+                        "answers" : 
+                        [
+                            {"id": 1,
+                                "image": "Assets/AnimalLand/Questions/frog-answer.png",
+                                "info": "ขา",
+                                "isCorrect": true
+                            },
+                            {"id": 2, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/bird-answer.png",
+                                "info": "ปีก",
+                                "isCorrect": false
+                            },
+                            {"id": 3, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/cat2-answer.png",
+                                "info": "หาง",
+                                "isCorrect": false
+                            }
+                        ]
+                },
+                {
+                    "id" : 11,
+                        "info" : "ส่วนไหนของน้องปลาทองที่หายไปกันนะ?",
+                        "image" : "Assets/AnimalLand/Questions/goldfish-question1.png",
+                        "answers" : 
+                        [
+                            {"id": 1,
+                                "image": "Assets/AnimalLand/Questions/goldfish-answer1.png",
+                                "info": "ครีบ",
+                                "isCorrect": true
+                            },
+                            {"id": 2, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/bird-answer.png",
+                                "info": "ปีก",
+                                "isCorrect": false
+                            },
+                            {"id": 3, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/cat2-answer.png",
+                                "info": "หาง",
+                                "isCorrect": false
+                            }
+                        ]
+                },
+                {
+                    "id" : 12,
+                        "info" : "ส่วนไหนของน้องนกเงือกที่หายไปกันนะ?",
+                        "image" : "Assets/AnimalLand/Questions/hornbill-question.png",
+                        "answers" : 
+                        [
+                            {"id": 1,
+                                "image": "Assets/AnimalLand/Questions/hornbill-answer.png",
+                                "info": "ปาก",
+                                "isCorrect": true
+                            },
+                            {"id": 2, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/bird-answer.png",
+                                "info": "ปีก",
+                                "isCorrect": false
+                            },
+                            {"id": 3, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/cat2-answer.png",
+                                "info": "หาง",
+                                "isCorrect": false
+                            }
+                        ]
+                },
+                {
+                    "id" : 13,
+                        "info" : "ส่วนไหนของน้องหมึกที่หายไปกันนะ?",
+                        "image" : "Assets/AnimalLand/Questions/octopus-question.png",
+                        "answers" : 
+                        [
+                            {"id": 1,
+                                "image": "Assets/AnimalLand/Questions/octopus-answer.png",
+                                "info": "หนวด",
+                                "isCorrect": true
+                            },
+                            {"id": 2, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/bird-answer.png",
+                                "info": "ปีก",
+                                "isCorrect": false
+                            },
+                            {"id": 3, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/cat2-answer.png",
+                                "info": "หาง",
+                                "isCorrect": false
+                            }
+                        ]
+                },
+                {
+                    "id" : 14,
+                        "info" : "ส่วนไหนของน้องเพนกวินที่หายไปกันนะ?",
+                        "image" : "Assets/AnimalLand/Questions/penguin-question.png",
+                        "answers" : 
+                        [
+                            {"id": 1,
+                                "image": "Assets/AnimalLand/Questions/penguin-answer.png",
+                                "info": "ปีก",
+                                "isCorrect": true
+                            },
+                            {"id": 2, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/bird-answer.png",
+                                "info": "ปีก",
+                                "isCorrect": false
+                            },
+                            {"id": 3, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/cat2-answer.png",
+                                "info": "หาง",
+                                "isCorrect": false
+                            }
+                        ]
+                },
+                {
+                    "id" : 15,
+                        "info" : "ส่วนไหนของน้องแรดที่หายไปกันนะ?",
+                        "image" : "Assets/AnimalLand/Questions/rhinoceros-question1.png",
+                        "answers" : 
+                        [
+                            {"id": 1,
+                                "image": "Assets/AnimalLand/Questions/rhinoceros-answer1.png",
+                                "info": "นอ",
+                                "isCorrect": true
+                            },
+                            {"id": 2, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/bird-answer.png",
+                                "info": "ปีก",
+                                "isCorrect": false
+                            },
+                            {"id": 3, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/cat2-answer.png",
+                                "info": "หาง",
+                                "isCorrect": false
+                            }
+                        ]
+                },
+                {
+                    "id" : 16,
+                        "info" : "ส่วนไหนของน้องแรดที่หายไปกันนะ?",
+                        "image" : "Assets/AnimalLand/Questions/rhinoceros-question2.png",
+                        "answers" : 
+                        [
+                            {"id": 1,
+                                "image": "Assets/AnimalLand/Questions/rhinoceros-answer2.png",
+                                "info": "ขา",
+                                "isCorrect": true
+                            },
+                            {"id": 2, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/bird-answer.png",
+                                "info": "ปีก",
+                                "isCorrect": false
+                            },
+                            {"id": 3, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/cat2-answer.png",
+                                "info": "หาง",
+                                "isCorrect": false
+                            }
+                        ]
+                },
+                {
+                    "id" : 17,
+                        "info" : "ส่วนไหนของน้องเต่าที่หายไปกันนะ?",
+                        "image" : "Assets/AnimalLand/Questions/turtle-question.png",
+                        "answers" : 
+                        [
+                            {"id": 1,
+                                "image": "Assets/AnimalLand/Questions/turtle-answer.png",
+                                "info": "กระดอง",
+                                "isCorrect": true
+                            },
+                            {"id": 2, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/bird-answer.png",
+                                "info": "ปีก",
+                                "isCorrect": false
+                            },
+                            {"id": 3, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/cat2-answer.png",
+                                "info": "หาง",
+                                "isCorrect": false
+                            }
+                        ]
+                },
+                {
+                    "id" : 18,
+                        "info" : "ส่วนไหนของน้องหมาป่าที่หายไปกันนะ?",
+                        "image" : "Assets/AnimalLand/Questions/wolf-question1.png",
+                        "answers" : 
+                        [
+                            {"id": 1,
+                                "image": "Assets/AnimalLand/Questions/wolf-answer1.png",
+                                "info": "หาง",
+                                "isCorrect": true
+                            },
+                            {"id": 2, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/bird-answer.png",
+                                "info": "ปีก",
+                                "isCorrect": false
+                            },
+                            {"id": 3, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/cat2-answer.png",
+                                "info": "หาง",
+                                "isCorrect": false
+                            }
+                        ]
+                },
+                {
+                    "id" : 18,
+                        "info" : "ส่วนไหนของน้องหมาป่าที่หายไปกันนะ?",
+                        "image" : "Assets/AnimalLand/Questions/wolf-question1.png",
+                        "answers" : 
+                        [
+                            {"id": 1,
+                                "image": "Assets/AnimalLand/Questions/wolf-answer1.png",
+                                "info": "หาง",
+                                "isCorrect": true
+                            },
+                            {"id": 2, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/bird-answer.png",
+                                "info": "ปีก",
+                                "isCorrect": false
+                            },
+                            {"id": 3, //แก้กงนิ้
+                                "image": "Assets/AnimalLand/Questions/cat2-answer.png",
+                                "info": "หาง",
+                                "isCorrect": false
+                            }
+                        ]
+                }
+             ]
+         }
+    ]
+}
