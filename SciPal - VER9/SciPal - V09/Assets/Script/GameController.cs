@@ -8,12 +8,23 @@ public class GameController : MonoBehaviour
 {
     public Text questionText;
     public Image questionImage;
+    public Text knowledgeText;
+    public Image knowledgeImage;
     public Text itemNumberDisplay;
     public Text scoreDisplay;
+    public Image starDisplay;
+    public Sprite[] stars;
     public SimpleObjectPool answerButtonObjectPool;
     public Transform answerButtonParent;
     public GameObject questionDisplay;
     public GameObject resultDisplay;
+    public GameObject knowledgeDisplay;
+    public GameObject tryAgainButton;
+    public Sprite correctAnswer;
+    public Sprite wrongAnswer;
+    public Button answerButton;
+    //public Sprite correctSprite;
+    //public Sprite wrongSprite;
 
     private DataController dataController;
     private RoundData currentRoundData;
@@ -25,6 +36,7 @@ public class GameController : MonoBehaviour
     private int itemNumber;
     private List<GameObject> answerButtonGameObjects = new List<GameObject>();
 
+    [SerializeField] private Sprite ImgQuestion;
 
     void Start()
     {
@@ -40,12 +52,14 @@ public class GameController : MonoBehaviour
         ShowQuestion();
         isRoundActive = true;
     }
+    
 
     private void ShowQuestion()
     {
         RemoveAnswerButtons();
         Question question = questionPool[questionIndex];
         questionText.text = question.info;
+        //knowledgeText.text = question.correctKnowledge.title;
 
         for (int i = 0; i < question.answers.Length; i++)
         {
@@ -55,6 +69,8 @@ public class GameController : MonoBehaviour
             
             AnswerButton answerButton = answerButtonGameObject.GetComponent<AnswerButton>();
             answerButton.SetUp(question.answers[i]);
+
+            questionImage.sprite = ImgQuestion;
         }
     }
 
@@ -73,20 +89,31 @@ public class GameController : MonoBehaviour
         if (isCorrect)
         {
             score += currentRoundData.scoreOfCorrectAns;
+            //answerButton.image.sprite = correctAnswer;
+            ShowKnowledge();
         }
+        else
+        {
+            //answerButton.image.sprite = wrongAnswer;
+            ShowKnowledge();
+        }
+    }
 
-        if (questionPool.Length > questionIndex +1)
+    public void OnClickedAcceptButton()
+    {
+        knowledgeDisplay.SetActive(false);
+
+        if (questionPool.Length > questionIndex + 1)
         {
             questionIndex++;
+
             ShowQuestion();
             //re-count timer here?
         }
         else
         {
             EndRound();
-        } //maybe this if-else should be moved to ShowKnowledge()
-
-        //show knowledge here
+        }
 
         itemNumber += 1;
         itemNumberDisplay.text = itemNumber.ToString() + "/10";
@@ -94,7 +121,49 @@ public class GameController : MonoBehaviour
 
     public void ShowKnowledge()
     {
+        knowledgeDisplay.SetActive(true);
 
+        switch (score)
+        {
+            case 0:
+                starDisplay.sprite = stars[0];
+                break;
+            case 1:
+                starDisplay.sprite = stars[1];
+                break;
+            case 2:
+                starDisplay.sprite = stars[2];
+                break;
+            case 3:
+                starDisplay.sprite = stars[3];
+                break;
+            case 4:
+                starDisplay.sprite = stars[4];
+                break;
+            case 5:
+                starDisplay.sprite = stars[5];
+                break;
+            case 6:
+                starDisplay.sprite = stars[6];
+                break;
+            case 7:
+                starDisplay.sprite = stars[7];
+                break;
+            case 8:
+                starDisplay.sprite = stars[8];
+                break;
+            case 9:
+                starDisplay.sprite = stars[9];
+                break;
+            case 10:
+                starDisplay.sprite = stars[10];
+                break;
+        }
+    }
+
+    public void TryAgain()
+    {
+        SceneManager.LoadScene("ObjectLand");
     }
 
     public void EndRound()

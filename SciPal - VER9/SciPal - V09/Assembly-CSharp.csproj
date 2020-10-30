@@ -63,6 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\GameManager.cs" />
+    <Compile Include="Assets\ImageInit.cs" />
     <Compile Include="Assets\Script\Answer.cs" />
     <Compile Include="Assets\Script\AnswerButton.cs" />
     <Compile Include="Assets\Script\DataController.cs" />
@@ -75,6 +77,7 @@
     <Compile Include="Assets\Script\OnClickedHomeButton.cs" />
     <Compile Include="Assets\Script\OnClickedInfoButton.cs" />
     <Compile Include="Assets\Script\OnClickedPlayButton.cs" />
+    <Compile Include="Assets\Script\OnClickedQuitButton.cs" />
     <Compile Include="Assets\Script\OnClickedXButton.cs" />
     <Compile Include="Assets\Script\Question.cs" />
     <Compile Include="Assets\Script\RoundData.cs" />
